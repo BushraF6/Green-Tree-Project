@@ -1,0 +1,106 @@
+.mains{
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+header{
+    height: 112px;
+}
+#heading{
+    width: 153px;
+    height: 50px;  
+    font: normal normal bold 22px/28px Helvetica;
+    color: #354463;
+}
+.formbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 1296px;
+    width: 768px;
+    background-image: url('images/annie-spratt-427340-unsplash.png');
+
+}
+.title{
+    font: normal normal normal 44px/46px Flood Std;
+    color: #FFFFFF;
+    width: 512px;
+    height: 104px;
+    text-align: center;
+}
+
+form{
+    width: 640px;
+    height: 1016px;
+    background-color: #354463;
+}
+.form{
+    display: grid;
+    margin: 58px 64px 70px 65px;
+    height: 888px;
+    width: 512px;
+    grid-template-rows: 28px 62px 62px 65px 64px ;
+    grid-template-columns: 224px 224px;
+    grid-column-gap:63px ;
+}
+.info{
+    font: normal normal bold 28px/36px Helvetica;
+    color: #FFFFFF;
+    grid-column: 1/span 2;
+}
+.field{
+    font: normal normal normal 14px/17px Helvetica;
+    color: #FFFFFF;
+}
+#fname, #lname, #city, #street, #state, #zip{
+    width: 30%;
+}
+.state-zip{
+    display: flex;
+}
+.address{
+    grid-column: 1/ span 2 ;
+}
+.email-addr{
+    grid-column: 1/ span 2 ;
+}
+.footer{
+    width: 768px;
+    height: 427px;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 180px;
+    row-gap: 20px;
+    background-color: #FFFFFF;
+}
+.box{
+    margin-left: 20px;
+    font: normal normal 300 14px/20px Helvetica;   
+}
+.contact, .follow, .more{
+    font: normal normal normal 11px/13px Helvetica;
+}
+.follow, .more{
+    text-decoration: underline;
+}
+.box5{
+    grid-column: 1/span 2;
+    color: #354463;
+    font: normal normal normal 44px/46px Flood Std;
+  
+} 
+div.box5{
+    height: 136px;
+    width: 181px;
+    text-align: right;
+    position: relative;
+    left: 520px;
+    bottom: 40px;
+    
+}
