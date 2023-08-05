@@ -1,20 +1,44 @@
 .mains{
-    width: 768px;
+    width: 766px;
     display: flex;
     flex-direction: column;
     margin: auto;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
+    border: 2px solid #00000029;
+}
+@media only screen and (max-width: 750px){
+    .mains{
+        width: 374px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border: 2px solid #00000029;
+    }    
 }
 header{
     height: 112px;
 }
-#heading{
+@media only screen and (max-width: 750px){
+    header{
+        height: 80px;
+    }
+}
+.heading{
     width: 153px;
     height: 50px;  
     font: normal normal bold 22px/28px Helvetica;
     color: #354463;
+}
+@media only screen and (max-width: 750px){
+    .heading{
+        width: 126px;
+        height: 59px; /* 49 px */
+        font: normal normal bold 18px/22px Helvetica;
+        color: #354463;
+        }
 }
 .formbox{
     display: flex;
@@ -22,9 +46,21 @@ header{
     justify-content: center;
     align-items: center; 
     height: 1296px;
-    width: 768px;
+    width: 766px;
     background-image: url('images/annie-spratt-427340-unsplash.png');
 
+}
+@media only screen and (max-width: 750px){
+    .formbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        height: 985px;
+        width: 374px;
+        background-image: url('images/annie-spratt-427340-unsplash.png');
+    
+    }  
 }
 .title{
     font: normal normal normal 44px/46px Flood Std;
@@ -33,11 +69,26 @@ header{
     height: 104px;
     text-align: center;
 }
-
+@media only screen and (max-width: 750px){
+    .title{
+        font: normal normal normal 32px/46px Flood Std;
+        color: #FFFFFF;
+        width: 312px;
+        height: 79px;
+        text-align: center;
+    }   
+}
 form{
     width: 640px;
     height: 1016px;
     background-color: #354463;
+}
+@media only screen and (max-width: 750px){
+    form{
+        width: 312px;
+        height: 816px;
+        background-color: #354463;
+    }
 }
 .form{
     display: flex;
@@ -45,6 +96,15 @@ form{
     height: 888px;
     width: 512px;
     flex-direction: column;
+}
+@media only screen and (max-width: 750px){
+    .form{
+        display: flex;
+        margin: 32px 32px 33px 32px;
+        height: 751px;
+        width: 249px;
+        flex-direction: column;
+    }
 }
 .form1{
     margin-top: 0px;
@@ -54,19 +114,46 @@ form{
     grid-column-gap:63px ;
     grid-row-gap: 29px;
 }
+@media only screen and (max-width: 750px){
+    .form1{
+        margin-top: 0px;
+        display: grid;
+        grid-template-rows: 27px 47px 47px 47px 47px;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap:16px ;
+        grid-row-gap: 30px;
+}
+}
 .form2{
     display: grid;
     grid-template-rows: 28px 65px 65px;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap:63px ;
-    grid-row-gap: 24px;
+    grid-column-gap:16px ;
+    grid-row-gap: 32px;
     margin: 35px 0px 50px 0px;
 }
-
+@media only screen and (max-width: 750px){
+    .form2{
+        display: grid;
+        grid-template-rows: 27px 47px 47px;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap:63px ;
+        grid-row-gap: 24px;
+        margin: 35px 0px 50px 0px;
+    }
+}
 .info{
     font: normal normal bold 28px/36px Helvetica;
     color: #FFFFFF;
     grid-column: 1/span 2;
+}
+@media only screen and (max-width: 750px){
+    .info{
+        font: normal normal bold 22px/28px Helvetica;
+        color: #FFFFFF;
+        opacity: 1;
+        grid-column: 1/span 2;
+    }
 }
 #addr, #email, #card{
     width: 99%;
@@ -78,11 +165,28 @@ form{
     border: #354463;
     border-bottom: 4px solid #C1F7D5;
 }
+@media only screen and (max-width: 750px){
+    #addr, #email, #card{
+        width: 98%;
+        height: 47px;
+        font: normal normal 300 16px/24px Helvetica;
+        letter-spacing: -0.16px;
+        color: #c2c6cf;
+        background-color: #354463;
+        border: #354463;
+        border-bottom: 4px solid #C1F7D5;
+    }
+}
 .field{
     font: normal normal normal 14px/17px Helvetica;
     color: #FFFFFF;
 }
-
+@media only screen and (max-width: 750px){
+    .field{
+        font: normal normal normal 11px/13px Helvetica;
+        color: #FFFFFF;
+    }
+}
 #fname, #lname, #city, #street, #code, #expiry{
     width: 98%;
     height: 48px;
@@ -93,13 +197,37 @@ form{
     border: #354463;
     border-bottom: 4px solid #C1F7D5;
 }
+@media only screen and (max-width: 750px){
+    #fname, #lname, #city, #street, #code, #expiry{
+        width: 95%;
+        height: 47px;
+        font: normal normal 300 16px/24px Helvetica;
+        letter-spacing: -0.4px;
+        color: #c2c6cf;
+        background-color: #354463;
+        border: #354463;
+        border-bottom: 4px solid #C1F7D5;
+    }        
+}
 .state-zip{
     display: flex;
     width: 225px; 
-    justify-content: space-between; 
+    justify-content: space-between;
+}
+@media only screen and (max-width: 750px){
+    .state-zip{
+        display: flex;
+        width: 102px;
+        justify-content: space-between; 
+    }
 }
 .state, .zip{
     width: 96px;
+}
+@media only screen and (max-width: 750px){
+    .state, .zip{
+        width: 55px;
+    }
 }
 .address{
     grid-column: 1/ span 2 ;
@@ -114,30 +242,75 @@ form{
     border: #354463;
     border-bottom: 4px solid #C1F7D5;
 }
-
+@media only screen and (max-width: 750px){
+    #state, #zip{
+        width: 75%;
+        height: 48px;
+        font: normal normal 300 16px/24px Helvetica;
+        letter-spacing: -0.4px;
+        color: #c2c6cf;
+        background-color: #354463;
+        border: #354463;
+        border-bottom: 4px solid #C1F7D5;
+    }
+}
 .card-num{
     grid-column: 1/span 2;
 }
 #card{
     width: 90%;
 }
+@media only screen and (max-width: 750px){
+    #card{
+        width: 44%;
+    }
+}
 #expiry{
     width: 35%;
     margin-right: 30px;
+}
+@media only screen and (max-width: 750px){
+    #expiry{
+        width: 30%;
+        margin-right: 15px;
+    }
 }
 .cvc{
     width: 122px;
     margin-right: 105px;
 }
+@media only screen and (max-width: 750px){
+    .cvc{
+        width: 96px;
+        margin-right: 295px;
+    }
+}
 .expiry{
     width: 270px;
+}
+@media only screen and (max-width: 750px){
+    .expiry{
+        width: 103px
+    }
 }
 #code{
     width: 75%;
 }
+@media only screen and (max-width: 750px){
+    #code{
+        width: 55%;
+    }
+}
 #confirm{
     height: 75px;
     text-align: start;
+}
+@media only screen and (max-width: 750px){
+    #confirm{
+        height: 61px;
+        text-align: left;
+        font: normal normal bold 18px/22px Helvetica;
+    }
 }
 .payment{
     font: normal normal bold 22px/28px Helvetica;
@@ -151,6 +324,21 @@ form{
     top: 55px;
     left: 255px;
 }
+@media only screen and (max-width: 750px){
+    .payment{
+        font: normal normal bold 16px/20px Helvetica;
+        color: #354463;
+        width: 249px;
+        height: 49px;
+        background: #C1F7D5;
+        border: 1px solid #C1F7D5;
+        border-radius: 100px;
+        opacity: 1;
+        position: relative;
+        left: 0px;
+        top: 6px;
+    }
+}
 .back{
     width: 60px;
     height: 16px;
@@ -159,16 +347,55 @@ form{
     color: #C1F7D5;
     font: normal normal 300px 16px/56px Helvetica;
 }
+@media only screen and (max-width: 750px){
+    .back{
+        text-decoration: underline;
+        font: normal normal 300 14px/24px Helvetica;
+        height: 14px;
+        color: #C1F7D5;
+    }
+}
 .footer{
     display: grid;
-    width: 768px;
+    width: 764px;
     height: 427px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 217px 146px 181px;
     grid-column-gap: 100px;
 }
+
+.footer1{
+    display: none;
+}
+
+@media only screen and (max-width: 750px){
+    .footer{
+        display: none;
+    }
+
+    .footer1{
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+    .d1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
 .box{
-       margin: 60px 0px 0px 0px;
+       margin: 60px 40px 0px 0px;
+       color: #354463;
+       
+}
+@media only screen and (max-width: 750px){
+    .box{
+        color: #354463;
+        margin: 30px 20px 0px 30px;
+    }
 }
 .follow, .more{
     text-decoration: underline;
@@ -177,8 +404,27 @@ form{
     grid-row: 1 / span 2;
     margin: 60px 0px 0px 72px;
 }
+@media only screen and (max-width: 750px){
+    .box1{
+        display: none;
+    }
+    #box11{
+        margin-right: 50px;
+    }
+    #heading2{
+        width: 94px;
+    }
+}
 #box4{
     margin-top:30px ;
+}
+@media only screen and (max-width: 750px){
+    #box4{
+        display: none;
+    }
+    #box41{
+        margin-right: 65px;
+    }
 }
 div.box5{
     font: normal normal normal 44px/46px "Flood Std";
@@ -190,4 +436,20 @@ div.box5{
     margin-top: 35px;
     position: relative;
     right: -1px;
+}
+@media only screen and (max-width: 750px){
+    div.box51{
+        background-color: #C1F7D5;
+        width: 181px;
+        height: 136px;
+        text-align: right;
+        margin-left: auto;
+        margin-right: 20px;;
+        font: normal normal normal 44px/46px Flood Std;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+        margin-bottom: 20px;
+      
+    }
 }
