@@ -170,6 +170,9 @@ form{
 .box{
        margin: 60px 0px 0px 0px;
 }
+.follow, .more{
+    text-decoration: underline;
+}
 #box1{
     grid-row: 1 / span 2;
     margin: 60px 0px 0px 72px;
