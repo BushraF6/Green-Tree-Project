@@ -167,7 +167,7 @@ header{
         color: #354463;
         text-align: center;
         grid-column: 1 / span 2;
-        margin: 0px 30px 20px 0px;
+        margin: 0px 30px 0px 0px;
     }
 }
 @media only screen and (min-width: 378px) and (max-width: 768px){
@@ -199,7 +199,7 @@ header{
     .issue{
         width: 376px;
         height: 600px;
-        background-image: url('images/assets/about-us/annie-spratt-427339-unsplash.png');
+        background-image: url('images/assets/about-us/Mob-Issue.png');
         background-color: #C1F7D5;
         display: flex;
         flex-direction: column;
@@ -213,7 +213,7 @@ header{
         width: 766px;
         height: 608px;
         background-color: #C1F7D5;
-        background-image: url('images/assets/about-us/annie-spratt-427339-unsplash.png');
+        background-image: url('images/assets/about-us/Tab-Issue.png');
     }
 }
 
@@ -224,6 +224,7 @@ p.issue{
     text-align: left;
     font: normal normal normal 72px/76px Flood Std;
     color: #FFFFFF;
+    background: transparent url('images/assets/about-us/annie-spratt-427339-unsplash.png') 0% 0% no-repeat padding-box;
 }
 @media only screen and (max-width: 376px){
     p.issue{
@@ -231,6 +232,7 @@ p.issue{
         height: 136px;
         text-align: left;
         font: normal normal normal 44px/46px Flood Std;
+        background: transparent url('images/assets/about-us/Mob-Issue.png') 0% 0% no-repeat padding-box;
         color: #FFFFFF;
         margin: 0px 0px  65px  32px; 
     }
@@ -241,9 +243,9 @@ p.issue{
         height: 136px;
         text-align: left;
         font: normal normal normal 44px/46px Flood Std;
+        background: transparent url('images/assets/about-us/Tab-Issue.png') 0% 0% no-repeat padding-box;
         color: #FFFFFF;
-
-
+        margin-left:64px;
     }
 }
 
@@ -823,7 +825,7 @@ p.goal{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url("images/assets/about-us/Impact Background.png"); 
+        background-image: url("images/assets/about-us/Mob-Impact.png"); 
         background-color: #354463;
     }
 }
@@ -833,7 +835,7 @@ p.goal{
         height: 694px;
         display: flex;
         flex-direction: column;
-        background-image: url("images/assets/about-us/Impact Background.png"); 
+        background-image: url("images/assets/about-us/Tab-Impact.png"); 
         background-color: #354463;
         justify-content: center;
         align-items: center;
@@ -1072,6 +1074,10 @@ p.block3{
         height: 48px;
         background-color: #C1F7D5;
         border-radius: 100px;
+        border: 1px solid #C1F7D5;
+        position: relative;
+        left: 312px;
+        bottom: 500px;
     }
 }
 
@@ -1084,7 +1090,7 @@ img.next{
     img.next{
         display: none;
     }
-    img.next-mob{
+    .next-img-mob{
         width: 24.75px;
         height: 16.5px;
     }
@@ -1130,7 +1136,7 @@ img.hist-cnt{
     img.hist-cnt{
         display: none;
     }
-    img.hist-cnt-mob{
+    .hist-img-mob{
        width: 312px;
        height: 224px;
     }
@@ -1159,7 +1165,7 @@ img.hist-cnt{
     #mob-years{
         position: relative;
         bottom: 572px;
-        left: 75px;
+        left: 110px;
     }
 }
 @media only screen and (min-width: 378px) and (max-width: 768px){
@@ -1195,6 +1201,26 @@ img.hist-cnt{
         flex-direction: column;
         align-items: center;
         background-color: #FFFFFF;
+        margin-left: 30px;
+    }
+    .circles{
+        display: flex;
+        width: 76px;
+        height: 13px;
+        justify-content: space-between;
+        position: relative;
+        left: 150px;
+        bottom: 20px;
+    }
+    .circle{
+        width: 13px;
+        height: 13px;
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 100px;
+    }
+    #circle1{
+        background-color: #354463;
     }
 }
 @media only screen and (min-width: 378px) and (max-width: 768px){
@@ -1289,11 +1315,13 @@ p.hist-cnt{
         width: 156px;
         height: 40px;
         background: #C1F7D5 0% 0% no-repeat padding-box;
+        border: 1px solid #C1F7D5;
         border-radius: 100px;
         text-align: center;
         font: normal normal bold 18px/22px Helvetica;
         color: #354463;
         margin: 0px;
+
     }
 }
 @media only screen and (min-width: 378px) and (max-width: 768px){
