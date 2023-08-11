@@ -20,7 +20,7 @@
     }   
 }  
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .mains{
         width: 374px;
         display: flex;
@@ -38,7 +38,7 @@ header{
         height: 120px;
     }
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     header{
         height: 80px;
     }
@@ -61,7 +61,7 @@ header{
         opacity: 1;
     }
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .heading{
         width: 126px;
         height: 59px;
@@ -77,7 +77,7 @@ header{
     align-items: center; 
     height: 1296px;
     width: 766px;
-    background: #354463 url('images/annie-spratt-427340-unsplash.png');
+    background-image: url('images/annie-spratt-427340-unsplash.png');
 
 }
 
@@ -88,12 +88,12 @@ header{
         justify-content: space-around;
         height: 1224px;
         width: 1438px;
-        background: #354463 url('images/assets/donation/Tab-annie-spratt.png') no-repeat;
+        background-image: url('images/annie-spratt-427340-unsplash.png');
     
     }
 }
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .formbox{
         display: flex;
         flex-direction: column;
@@ -101,7 +101,7 @@ header{
         align-items: center; 
         height: 985px;
         width: 374px;
-        background: #354463 url('images/assets/donation/mob-annie-spratt.png');
+        background-image: url('images/annie-spratt-427340-unsplash.png');
     
     }  
 }
@@ -128,7 +128,7 @@ header{
     }
 }
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .title{
         font: normal normal normal 32px/46px Flood Std;
         color: #FFFFFF;
@@ -151,7 +151,7 @@ form{
     }
 }
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     form{
         width: 312px;
         height: 816px;
@@ -165,7 +165,7 @@ form{
     width: 512px;
     flex-direction: column;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .form{
         display: flex;
         margin: 32px 32px 33px 32px;
@@ -182,7 +182,7 @@ form{
     grid-column-gap:63px ;
     grid-row-gap: 29px;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .form1{
         margin-top: 0px;
         display: grid;
@@ -200,7 +200,7 @@ form{
     grid-row-gap: 32px;
     margin: 35px 0px 50px 0px;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .form2{
         display: grid;
         grid-template-rows: 27px 47px 47px;
@@ -215,7 +215,7 @@ form{
     color: #FFFFFF;
     grid-column: 1/span 2;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .info{
         font: normal normal bold 22px/28px Helvetica;
         color: #FFFFFF;
@@ -233,7 +233,7 @@ form{
     border: #354463;
     border-bottom: 4px solid #C1F7D5;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     #addr, #email, #card{
         width: 98%;
         height: 47px;
@@ -249,7 +249,7 @@ form{
     font: normal normal normal 14px/17px Helvetica;
     color: #FFFFFF;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .field{
         font: normal normal normal 11px/13px Helvetica;
         color: #FFFFFF;
@@ -265,7 +265,7 @@ form{
     border: #354463;
     border-bottom: 4px solid #C1F7D5;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     #fname, #lname, #city, #street, #code, #expiry{
         width: 95%;
         height: 47px;
@@ -282,7 +282,7 @@ form{
     width: 225px; 
     justify-content: space-between;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .state-zip{
         display: flex;
         width: 102px;
@@ -292,7 +292,7 @@ form{
 .state, .zip{
     width: 96px;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .state, .zip{
         width: 55px;
     }
@@ -310,7 +310,7 @@ form{
     border: #354463;
     border-bottom: 4px solid #C1F7D5;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     #state, #zip{
         width: 75%;
         height: 48px;
@@ -328,7 +328,7 @@ form{
 #card{
     width: 90%;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     #card{
         width: 44%;
     }
@@ -337,7 +337,7 @@ form{
     width: 35%;
     margin-right: 30px;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     #expiry{
         width: 30%;
         margin-right: 15px;
@@ -347,7 +347,7 @@ form{
     width: 122px;
     margin-right: 105px;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .cvc{
         width: 96px;
         margin-right: 295px;
@@ -356,7 +356,7 @@ form{
 .expiry{
     width: 270px;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .expiry{
         width: 103px
     }
@@ -364,7 +364,7 @@ form{
 #code{
     width: 75%;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     #code{
         width: 55%;
     }
@@ -373,7 +373,7 @@ form{
     height: 75px;
     text-align: start;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     #confirm{
         height: 61px;
         text-align: left;
@@ -392,7 +392,7 @@ form{
     top: 55px;
     left: 255px;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .payment{
         font: normal normal bold 16px/20px Helvetica;
         color: #354463;
@@ -415,7 +415,7 @@ form{
     color: #C1F7D5;
     font: normal normal 300px 16px/56px Helvetica;
 }
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .back{
         text-decoration: underline;
         font: normal normal 300 14px/24px Helvetica;
@@ -444,7 +444,7 @@ form{
     }
 }
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .footer{
         display: none;
     }
@@ -481,7 +481,7 @@ form{
     }
 }
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .box{
         color: #354463;
         margin: 30px 20px 0px 30px;
@@ -523,7 +523,7 @@ form{
     }
 }
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     .box1{
         display: none;
     }
@@ -545,7 +545,7 @@ form{
     }
 }
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     #box4{
         display: none;
     }
@@ -582,7 +582,7 @@ div.box5{
     }
 }
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 750px){
     div.box51{
         width: 181px;
         height: 136px;
